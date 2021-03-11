@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/06/20||18:24:34" using="Simscape Multibody Link Version 5.2" from="SolidWorks 26.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="robotprueba2" uid="robotprueba2" version="178">
+<AssemblyFile name="robotprueba2.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="motorcon lanta-1" uid="motorcon lanta-1" entityUid="motorcon lanta*:*Predeterminado">
+<Transform>
+<Rotation>1 1.0179494176688861e-16 0 1.0179494176688861e-16 -1.0000000000000002 5.4956039718945249e-15 0 -5.6066262743570405e-15 -1.0000000000000002</Rotation>
+<Translation>0.057368299999999969 -5.2945751485676118e-16 -0.020000000000000646</Translation>
+</Transform>
+</Instance>
+<Instance name="cubo-6" uid="cubo-6" entityUid="cubo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.0806475373082467 2.7312784895433317 -0.052000000000000102</Translation>
+</Transform>
+</Instance>
+<Instance name="baserobot-1" uid="baserobot-1" entityUid="baserobot*:*Predeterminado">
+<Transform>
+<Rotation>0.99422724828146236 -0.10729482175143332 0 0.10729482175143332 0.99422724828146236 -1.173735974797733e-16 0 1.1804499591700877e-16 1</Rotation>
+<Translation>-1.0135691048492777e-15 0.069010926229330152 0.060999999999999978</Translation>
+</Transform>
+</Instance>
+<Instance name="motorcon lanta-2" uid="motorcon lanta-2" entityUid="motorcon lanta*:*Predeterminado">
+<Transform>
+<Rotation>-1 8.64996074785212e-15 -1.1672080053477351e-14 -1.4090605052043864e-14 -0.38184931868662786 0.92422459273628843 3.5375306332924025e-15 0.92422459273628843 0.38184931868662808</Rotation>
+<Translation>-0.057368299999999997 -8.5941615157323632e-16 -0.020000000000000441</Translation>
+</Transform>
+</Instance>
+<Instance name="piso-1" uid="piso-1" entityUid="piso*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-3.7681485337598204 -0.32412490070030375 -0.062</Translation>
+</Transform>
+</Instance>
+<Instance name="cubo-1" uid="cubo-1" entityUid="cubo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.49573721398842718 2.0988398007278781 -0.052000000000000046</Translation>
+</Transform>
+</Instance>
+<Instance name="eslabon1-1" uid="eslabon1-1" entityUid="eslabon1*:*Predeterminado">
+<Transform>
+<Rotation>-0.084684171047848644 -0.065884519794945501 -0.99422724828146203 0.78470991404367829 0.61050648811203556 -0.10729482175143333 0.61405125354118573 -0.78926615157657587 -2.9143354396410359e-16</Rotation>
+<Translation>0.013325869413255446 0.070449024798696108 0.10599999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="robot-2" uid="robot-2" grounded="true" entityUid="robot*:*Predeterminado">
+<Transform>
+<Rotation>-1 0 -1.4266365866433262e-14 -1.4266365866433262e-14 -1.2246467991473522e-16 1 0 1 1.2246467991473446e-16</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="cubo-3" uid="cubo-3" entityUid="cubo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-3.0314774307150349 2.149939811908562 -0.051999999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="cubo-4" uid="cubo-4" entityUid="cubo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.2380027781923983 0.89402389699488516 -0.051999999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="cubo-5" uid="cubo-5" entityUid="cubo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-2.7592251271043695 0.3087140652984306 -0.051999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="eslabon2-1" uid="eslabon2-1" entityUid="eslabon2*:*Predeterminado">
+<Transform>
+<Rotation>-0.091360609277389301 -0.056262046240214456 0.99422724828146214 0.84657587086175878 0.52134165007217947 0.10729482175143322 -0.5243687003884947 0.85149131883588869 2.4349254990478846e-16</Rotation>
+<Translation>-0.010055956415751353 0.14731059387679243 0.16740512535411856</Translation>
+</Transform>
+</Instance>
+<Instance name="cubo-2" uid="cubo-2" entityUid="cubo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.5314962238726924 2.0986032898807072 -0.052000000000000005</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>baserobot-1</Uid>
+</InstancePath>
+<Position>-0.041596756992638838 0 0.044999999999999998</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>eslabon1-1</Uid>
+</InstancePath>
+<Position>0 0 0.014999999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baserobot-1</Uid>
+</InstancePath>
+<Position>0.0084032430073611858 0 0.070000000000000007</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>eslabon1-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>eslabon1-1</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 -0.005000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>eslabon2-1</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>eslabon1-1</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>eslabon2-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motorcon lanta-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>robot-2</Uid>
+</InstancePath>
+<Position>0.11886830000000008 -0.020000000000000219 0</Position>
+<Axis>1 3.5249581031848693e-15 2.77555756156288e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motorcon lanta-2</Uid>
+</InstancePath>
+<Position>0.068499999999999978 0.0069999999999999993 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>robot-2</Uid>
+</InstancePath>
+<Position>0.12586830000000002 -0.0030000000000000695 -0.013000000000000029</Position>
+<Axis>-1 -3.5249581031848693e-15 -2.77555756156288e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motorcon lanta-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>robot-2</Uid>
+</InstancePath>
+<Position>-0.11886830000000005 -0.020000000000000236 0</Position>
+<Axis>-1 3.4139358007223568e-15 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motorcon lanta-1</Uid>
+</InstancePath>
+<Position>0.068500000000000019 0.0070000000000000019 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>robot-2</Uid>
+</InstancePath>
+<Position>-0.12586829999999999 -0.0030000000000000816 0.012999999999999994</Position>
+<Axis>1 -3.4139358007223568e-15 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>baserobot-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>robot-2</Uid>
+</InstancePath>
+<Position>0 0.060999999999999978 0</Position>
+<Axis>0 1 1.2246467991473535e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>baserobot-1</Uid>
+</InstancePath>
+<Position>0 0 0.01999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>robot-2</Uid>
+</InstancePath>
+<Position>0 0.080999999999999975 0.069010926229330166</Position>
+<Axis>0 -1 -1.2246467991473535e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distancia1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>robotprueba2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincidente10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>piso-1</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cubo-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="baserobot" uid="baserobot*:*Predeterminado" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="baserobot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.09678448195480259</Mass>
+<CenterOfMass>0 0 0.023938281864078769</CenterOfMass>
+<Inertia>6.1142117015956324e-05 5.0588941148004776e-05 3.7894230776110488e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="baserobot_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.43529411764705883" g="0.53333333333333333" b="1" a="1"/>
+<Diffuse r="0.43529411764705883" g="0.53333333333333333" b="1" a="1"/>
+<Specular r="0.21764705882352942" g="0.26666666666666666" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cubo" uid="cubo*:*Predeterminado" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cubo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0000000000000002</Mass>
+<CenterOfMass>0.050000000000000003 0.050000000000000003 0.050000000000000003</CenterOfMass>
+<Inertia>0.0016666666666666668 0.0016666666666666668 0.0016666666666666666 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cubo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.090196078431372548" g="0.12156862745098039" b="1" a="1"/>
+<Diffuse r="0.090196078431372548" g="0.12156862745098039" b="1" a="1"/>
+<Specular r="0.045098039215686274" g="0.060784313725490195" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="eslabon1" uid="eslabon1*:*Predeterminado" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="eslabon1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016525165587411926</Mass>
+<CenterOfMass>0.035741779846447171 0 0.0039258220153552837</CenterOfMass>
+<Inertia>9.8336720347011145e-07 1.8754475528758203e-05 1.9343479073446875e-05 0 8.4214584743866653e-07 0</Inertia>
+</MassProperties>
+<GeometryFile name="eslabon1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.87450980392156863" g="0" b="0.20784313725490194" a="1"/>
+<Diffuse r="0.87450980392156863" g="0" b="0.20784313725490194" a="1"/>
+<Specular r="0.43725490196078431" g="0" b="0.10392156862745097" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="eslabon2" uid="eslabon2*:*Predeterminado" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="eslabon2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.053699943548181313</Mass>
+<CenterOfMass>0.071087124163336651 0 0.0055850271799207816</CenterOfMass>
+<Inertia>9.1229045112505366e-06 0.00010818947855321416 0.0001044262326933345 0 2.2332678703636461e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="eslabon2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.30980392156862746" g="1" b="0.66666666666666663" a="1"/>
+<Diffuse r="0.30980392156862746" g="1" b="0.66666666666666663" a="1"/>
+<Specular r="0.15490196078431373" g="0.5" b="0.33333333333333331" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motorcon lanta" uid="motorcon lanta*:*Predeterminado" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motorcon lanta.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.076690953938183121</Mass>
+<CenterOfMass>0.064105644132565809 0 0</CenterOfMass>
+<Inertia>3.2168453111418213e-05 8.1051941789687164e-05 8.1051941789687192e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motorcon lanta_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="piso" uid="piso*:*Predeterminado" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="piso.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1280.0000212800001</Mass>
+<CenterOfMass>2 2 0.0050000000000000001</CenterOfMass>
+<Inertia>1706.6773617068438 1706.6773617068438 3413.3333900799994 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="piso_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.99215686274509807" g="1" b="0.40392156862745099" a="1"/>
+<Diffuse r="0.99215686274509807" g="1" b="0.40392156862745099" a="1"/>
+<Specular r="0.49607843137254903" g="0.5" b="0.20196078431372549" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="robot" uid="robot*:*Predeterminado" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="robot.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.0350764510374133</Mass>
+<CenterOfMass>-2.4848630991013951e-06 0.030426289977486462 0.0010158949043515407</CenterOfMass>
+<Inertia>0.0065690958436587007 0.010825605246380987 0.0064209970553678348 -4.3372568351065569e-05 -2.5367310711216377e-09 -9.9242793199215665e-08</Inertia>
+</MassProperties>
+<GeometryFile name="robot_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
